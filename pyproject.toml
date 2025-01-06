@@ -1,0 +1,16 @@
+[project]
+name = "mtgdrafter"
+version = "0.0.1"
+authors = [
+  { name="Gabe Gustafson"},
+]
+description = "A collection of Magic the Gathering drafter models using machine learning"
+requires-python = ">=3.8"
+
+license = {text = "MIT"}
+classifiers = []
+dependencies = [
+  "requests",
+  "pandas",
+  "numpy",
+]
