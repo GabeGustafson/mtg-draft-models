@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import urllib
-from mtgdrafter.loading.cards import Card
+from mtgdrafter.dataloading.cards import Card
 
 def get_scryfall_cards(args: list[str]) -> pd.DataFrame:
     search_q = _get_scryfall_query(args)
